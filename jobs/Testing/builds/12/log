@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4IGmzHxiw4wE7Itr10Nmkf/n60lMAiYWMGWNIXLKGBjzAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy" build number [8mha:////4PAgFfhHkT6Q+GV2NL8P8F5Hci43Q4Ze51rjs0nmDTXBAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgY+/az8JH2X1IKc/Ep9Q1MAcopQlcMAAAA=[0m15
+originally caused by:
+ Started by upstream project "[8mha:////4NNyKkIXV2wjvzgg6Z486MzqICHATQXLLcOhOoXOYMEmAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4Ct3tGhLiFRrU1XJKcjOQ+cTiE11qR3xjQAOmekaxbxcAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JH2n0sycFH1DUwDfTb91wgAAAA==[0m15
+ originally caused by:
+  Started by GitHub push by anilkumartumkur
+Running as SYSTEM
+Building remotely on [8mha:////4NTJhkGSHmCgzCMEVOjTXqRcJzRSfd4pbU08VBpC7GsWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (label1) in workspace /home/ec2-user/workspace/Testing
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/Testing/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anilkumartumkur/HelloJava.git # timeout=10
+Fetching upstream changes from https://github.com/anilkumartumkur/HelloJava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.5'
+ > git fetch --tags --force --progress -- https://github.com/anilkumartumkur/HelloJava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 45c2d080a26fdbb68b6186d9a020f2259a07ef79 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 45c2d080a26fdbb68b6186d9a020f2259a07ef79 # timeout=10
+Commit message: "Update avcd"
+ > git rev-list --no-walk bf8c9ae53817d263f72ec5404f7903eb30b049b0 # timeout=10
+[Testing] $ /bin/sh -xe /tmp/jenkins3006029050171375470.sh
++ cd /opt/tomcat/bin
++ sudo sh startup.sh
+Tomcat started.
+Finished: SUCCESS

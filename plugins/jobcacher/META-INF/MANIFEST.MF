@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Jenkins Job Cacher plugin
+Specification-Version: 0.0
+Implementation-Title: Jenkins Job Cacher plugin
+Implementation-Version: 658.v3a_c3ed19fd14
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: jobcacher
+Short-Name: jobcacher
+Long-Name: Jenkins Job Cacher plugin
+Url: https://github.com/jenkinsci/jobcacher-plugin
+Compatible-Since-Version: 640.v424a_7cc1087a_
+Plugin-Version: 658.v3a_c3ed19fd14
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: commons-compress-api:1.26.1-2,workflow-step-api:700
+ .v6e45cb_a_5a_a_21,credentials:1413.va_51c53703df1
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/jobcacher-plu
+ gin
+Plugin-ScmTag: 3ac3ed19fd14ae78445aa9006428a9b66c0d8be2
+Plugin-ScmUrl: https://github.com/jenkinsci/jobcacher-plugin
+Implementation-Build: 3ac3ed19fd14ae78445aa9006428a9b66c0d8be2
+

@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4IGmzHxiw4wE7Itr10Nmkf/n60lMAiYWMGWNIXLKGBjzAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy" build number [8mha:////4E91JuDcpTC90Qyl622Ov3dHBZ3GyQ7p19xuIu59r7D4AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfZfUgpz8Sn0LACBGjbbCAAAA[0m8
+originally caused by:
+ Started by upstream project "[8mha:////4NNyKkIXV2wjvzgg6Z486MzqICHATQXLLcOhOoXOYMEmAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4IcDTbZXm2iCphlMp+VylteKms47wWUTfZSEcCQ1cF1iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfQsAAuYGV8EAAAA=[0m8
+ originally caused by:
+  Started by GitHub push by anilkumartumkur
+Running as SYSTEM
+Building remotely on [8mha:////4NTJhkGSHmCgzCMEVOjTXqRcJzRSfd4pbU08VBpC7GsWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (label1) in workspace /home/ec2-user/workspace/Testing
+[Testing] $ /bin/sh -xe /tmp/jenkins13725450535363692516.sh
++ cd /opt/tomcat/bin
++ sudo sh startup.sh
+Tomcat started.
+Finished: SUCCESS

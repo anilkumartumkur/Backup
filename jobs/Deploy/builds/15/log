@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4NNyKkIXV2wjvzgg6Z486MzqICHATQXLLcOhOoXOYMEmAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4Ct3tGhLiFRrU1XJKcjOQ+cTiE11qR3xjQAOmekaxbxcAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JH2n0sycFH1DUwDfTb91wgAAAA==[0m15
+originally caused by:
+ Started by GitHub push by anilkumartumkur
+Running as SYSTEM
+Building remotely on [8mha:////4Jk1+5hEwn2GHNucn/KfJ+Wr97abC0//OkDpsv5b79y3AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 (label1) in workspace /home/ec2-user/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins11336942340090094529.sh
++ cd /home/ec2-user/workspace/Build/target/
++ rsync -i Example-0.0.1-SNAPSHOT.war ec2-user@172.31.13.48:/opt/tomcat/webapps/
+<f..T...... Example-0.0.1-SNAPSHOT.war
+Triggering a new build of [8mha:////4FhfPDQhODQG6j66eCjVbYtVYpe5/9IL/OOdVZK6VV3vAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2Q1OISoHZ9AA3EdzzCAAAA[0mTesting
+Finished: SUCCESS

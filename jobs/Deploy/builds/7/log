@@ -1,0 +1,9 @@
+Started by user [8mha:////4K5ge5G8qoy8Cz9z1sSFGDPN83oiRt/LCJ+b1mo0KGwxAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYu/dLi1CL9xLzMHABdqiU2vwAAAA==[0mAnil Kumar Tumkur
+Running as SYSTEM
+Building remotely on [8mha:////4Jk1+5hEwn2GHNucn/KfJ+Wr97abC0//OkDpsv5b79y3AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 (label1) in workspace /home/ec2-user/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins7352587755915102172.sh
++ cd /home/ec2-user/workspace/Build/target/
++ rsync -i Example-0.0.1-SNAPSHOT.war ec2-user@172.31.13.48:/opt/tomcat/webapps/
+<f..T...... Example-0.0.1-SNAPSHOT.war
+Triggering a new build of [8mha:////4FhfPDQhODQG6j66eCjVbYtVYpe5/9IL/OOdVZK6VV3vAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2Q1OISoHZ9AA3EdzzCAAAA[0mTesting
+Finished: SUCCESS

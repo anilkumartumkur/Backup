@@ -1,0 +1,26 @@
+Started by user [8mha:////4K5ge5G8qoy8Cz9z1sSFGDPN83oiRt/LCJ+b1mo0KGwxAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYu/dLi1CL9xLzMHABdqiU2vwAAAA==[0mAnil Kumar Tumkur
+Running as SYSTEM
+Building remotely on [8mha:////4NTJhkGSHmCgzCMEVOjTXqRcJzRSfd4pbU08VBpC7GsWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (label1) in workspace /home/ec2-user/workspace/Testing
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/Testing/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anilkumartumkur/HelloJava.git # timeout=10
+Fetching upstream changes from https://github.com/anilkumartumkur/HelloJava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.5'
+ > git fetch --tags --force --progress -- https://github.com/anilkumartumkur/HelloJava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5a901eb448aebb1160e9b84e487da526246c743b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5a901eb448aebb1160e9b84e487da526246c743b # timeout=10
+Commit message: "Update avcd"
+ > git rev-list --no-walk 5a901eb448aebb1160e9b84e487da526246c743b # timeout=10
+[Testing] $ /bin/sh -xe /tmp/jenkins5865698509476864664.sh
++ cd /opt/tomcat/bin
++ sh startup.sh
+Cannot find ./catalina.sh
+The file is absent or does not have execute permission
+This file is needed to run this program
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

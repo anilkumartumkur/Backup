@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='jobcacher' version='658.v3a_c3ed19fd14'><l:dependency name='Jenkins Job Cacher plugin' groupId='org.jenkins-ci.plugins' artifactId='jobcacher' version='658.v3a_c3ed19fd14' url='https://github.com/jenkinsci/jobcacher-plugin'><l:description>Caches files on executors per job and reseeds executors on subsequent builds</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

@@ -1,0 +1,27 @@
+Started by user [8mha:////4K5ge5G8qoy8Cz9z1sSFGDPN83oiRt/LCJ+b1mo0KGwxAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYu/dLi1CL9xLzMHABdqiU2vwAAAA==[0mAnil Kumar Tumkur
+Running as SYSTEM
+Building remotely on [8mha:////4Jk1+5hEwn2GHNucn/KfJ+Wr97abC0//OkDpsv5b79y3AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 (label1) in workspace /home/ec2-user/workspace/Build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/anilkumartumkur/HelloJava.git
+ > git init /home/ec2-user/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/anilkumartumkur/HelloJava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.5'
+ > git fetch --tags --force --progress -- https://github.com/anilkumartumkur/HelloJava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/anilkumartumkur/HelloJava.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 619e4a27a21d1adf77e859c8a112a6502465583f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 619e4a27a21d1adf77e859c8a112a6502465583f # timeout=10
+Commit message: "Create avcd"
+First time build. Skipping changelog.
+[Build] $ /bin/sh -xe /tmp/jenkins17057694484951159129.sh
++ cd /home/ec2-user/workspace/
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,64 @@
+Started by GitHub push by anilkumartumkur
+Running as SYSTEM
+Building remotely on [8mha:////4Jk1+5hEwn2GHNucn/KfJ+Wr97abC0//OkDpsv5b79y3AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 (label1) in workspace /home/ec2-user/workspace/Build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/anilkumartumkur/HelloJava.git
+ > git init /home/ec2-user/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/anilkumartumkur/HelloJava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.5'
+ > git fetch --tags --force --progress -- https://github.com/anilkumartumkur/HelloJava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/anilkumartumkur/HelloJava.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ed7e319d98a386063c2d0d7ede0e3144577d9936 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ed7e319d98a386063c2d0d7ede0e3144577d9936 # timeout=10
+Commit message: "Update avcd"
+ > git rev-list --no-walk 97654a918e21220a44f9646461e643deafad2e4e # timeout=10
+[Build] $ /bin/sh -xe /tmp/jenkins785506250787031246.sh
++ cd /home/ec2-user/workspace/Build/
++ mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.github.Premvikash:Example >--------------------
+[INFO] Building Example 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Build/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ Example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/ec2-user/workspace/Build/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Build/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ Example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:3.4.0:war (default-war) @ Example ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [Example] in [/home/ec2-user/workspace/Build/target/Example-0.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace/Build/src/main/webapp]
+[INFO] Building war: /home/ec2-user/workspace/Build/target/Example-0.0.1-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.929 s
+[INFO] Finished at: 2025-05-08T12:10:08Z
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4IGmzHxiw4wE7Itr10Nmkf/n60lMAiYWMGWNIXLKGBjzAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy
+Finished: SUCCESS

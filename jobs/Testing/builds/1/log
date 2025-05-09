@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4IGmzHxiw4wE7Itr10Nmkf/n60lMAiYWMGWNIXLKGBjzAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy" build number [8mha:////4I74U3wL7tXtb7x6kv0XWyh3/ePcqAA0ydR2E3CsGKAmAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfZfUgpz8Sn1zALFbMibCAAAA[0m7
+originally caused by:
+ Started by user [8mha:////4K5ge5G8qoy8Cz9z1sSFGDPN83oiRt/LCJ+b1mo0KGwxAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYu/dLi1CL9xLzMHABdqiU2vwAAAA==[0mAnil Kumar Tumkur
+Running as SYSTEM
+Building remotely on [8mha:////4NTJhkGSHmCgzCMEVOjTXqRcJzRSfd4pbU08VBpC7GsWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUI30Anu9clcYAAAA=[0mslave2 (label1) in workspace /home/ec2-user/workspace/Testing
+[Testing] $ /bin/sh -xe /tmp/jenkins2628910725089111512.sh
++ cd /opt/tomcat/bin
++ sudo sh startup.sh
+Tomcat started.
+Finished: SUCCESS

@@ -1,0 +1,17 @@
+Started at Thu May 08 20:39:26 UTC 2025
+Checking Build
+Deleting /var/lib/jenkins/workspace/Build on Jenkins
+Deleting /home/ec2-user/workspace/Build on slave2
+Checking Deploy
+Deleting /var/lib/jenkins/workspace/Deploy on Jenkins
+Deleting /home/ec2-user/workspace/Deploy on slave2
+Checking Job1
+Deleting /var/lib/jenkins/workspace/Job1 on Jenkins
+Deleting /home/ec2-user/workspace/Job1 on slave2
+Checking Job2
+Deleting /var/lib/jenkins/workspace/Job2 on Jenkins
+Deleting /home/ec2-user/workspace/Job2 on slave1
+Checking Testing
+Deleting /var/lib/jenkins/workspace/Testing on Jenkins
+Deleting /home/ec2-user/workspace/Testing on slave1
+Finished at Thu May 08 20:39:26 UTC 2025. 72ms
